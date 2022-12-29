@@ -1,0 +1,25 @@
+.container::before {
+    background: url("/images/background.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.navbar {
+    border: 2px solid aliceblue;
+    border-radius: 1em;
+    margin: 4px;
+}
+
+.userguide p {
+    font-weight: bold;
+}
+
+li {
+    font-style: none;
+}
